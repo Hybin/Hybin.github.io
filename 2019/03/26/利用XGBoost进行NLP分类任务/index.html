@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="我儿王腾有大帝之姿">
 <meta property="og:description" content="Task Semantic Relation Extraction and Classification in Scientific Papers Subtask: 1 - Relation classification 1.1 Relation classification on clean data 1.2 Relation classification on noisy data  Cl">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-28T09:20:35.446Z">
+<meta property="og:updated_time" content="2019-03-30T14:19:40.637Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用XGBoost进行NLP分类任务">
 <meta name="twitter:description" content="Task Semantic Relation Extraction and Classification in Scientific Papers Subtask: 1 - Relation classification 1.1 Relation classification on clean data 1.2 Relation classification on noisy data  Cl">
@@ -309,8 +309,7 @@
 <p>1.2 Relation classification on noisy data</p>
 </blockquote>
 <h4 id="Classes-Semantic-Relations"><a href="#Classes-Semantic-Relations" class="headerlink" title="Classes - Semantic Relations"></a>Classes - Semantic Relations</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">relations = [<span class="string">'usage'</span>, <span class="string">'result'</span>, <span class="string">'model-feature'</span>, <span class="string">'part-whole'</span>, <span class="string">'topic'</span>, <span class="string">'comparison'</span>]</span><br></pre></td></tr></table></figure>
-<p>####Features</p>
-<p><strong>Lexical Features</strong></p>
+<h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><p><strong>Lexical Features</strong></p>
 <table>
 <thead>
 <tr>
@@ -322,38 +321,43 @@
 <tbody>
 <tr>
 <td>L1</td>
-<td>Bag of Words(bow)</td>
-<td></td>
-</tr>
-<tr>
-<td>L2</td>
-<td>Part-of-Speech(POS) which checks if the pos of the entity is NOUN</td>
-<td>int(0, 1)</td>
-</tr>
-<tr>
-<td>L3</td>
-<td>POS Path which contains the ordered pos of the words between enetities</td>
-<td></td>
-</tr>
-<tr>
-<td>L4</td>
 <td>Distance which shows the distances between entities</td>
 <td>Int</td>
 </tr>
 <tr>
+<td>L2</td>
+<td>hasIn(Model-Feature, Part-Whole)</td>
+<td>int(0, 1)</td>
+</tr>
+<tr>
+<td>L3</td>
+<td>hasOf(Topic, Result)</td>
+<td>Int(0, 1)</td>
+</tr>
+<tr>
+<td>L4</td>
+<td>hasFor(Usage)</td>
+<td>Int(0, 1)</td>
+</tr>
+<tr>
 <td>L5</td>
-<td>Levin Class(VerbNet by NLTK) (HPSG)</td>
-<td>Int</td>
+<td>hasWith(Compare)</td>
+<td>int(0, 1)</td>
 </tr>
 <tr>
 <td>L6</td>
-<td>Left Token</td>
-<td>int(0, 1)</td>
+<td>hasThan(Compare)</td>
+<td>Int(0, 1)</td>
 </tr>
 <tr>
 <td>L7</td>
-<td>Right Token</td>
-<td>int(0, 1)</td>
+<td>hasAnd</td>
+<td>Int(0, 1)</td>
+</tr>
+<tr>
+<td>L8</td>
+<td>Levin Class(VerbNet by NLTK) (HPSG)</td>
+<td>Int</td>
 </tr>
 </tbody>
 </table>
@@ -369,79 +373,42 @@
 <tbody>
 <tr>
 <td>L1</td>
-<td>If it is an Entity</td>
-<td>int(0, 1)</td>
-</tr>
-<tr>
-<td>L2</td>
-<td>Start Entity</td>
-<td>int(0, 1)</td>
-</tr>
-<tr>
-<td>L3</td>
-<td>End Entity</td>
-<td>int(0, 1)</td>
-</tr>
-<tr>
-<td>L4</td>
 <td>For comparison, it’s necessary to measure Similarity(sim200)</td>
 <td>Float</td>
 </tr>
 <tr>
-<td>L5</td>
+<td>L2</td>
 <td>Similarity Bucket</td>
 <td>int(0, 1, 2, 3, 4)</td>
 </tr>
-</tbody>
-</table>
-<p><strong>Word Features</strong></p>
-<table>
-<thead>
 <tr>
-<th>Features</th>
-<th>Remarks</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>L1</td>
-<td>${[x_s, x_0, x_1], [x_0, x_1, x_2], … ,[x_5, x_6, x_e]}^5$</td>
-<td>word embedding</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Postiton Features</strong></p>
-<table>
-<thead>
-<tr>
-<th>Features</th>
-<th>Remarks</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>L1</td>
-<td>Left Distance</td>
-<td>Int</td>
+<td>L3</td>
+<td>Position of Entity (Text)</td>
+<td>LabelEnocder (Text Index)</td>
 </tr>
 <tr>
-<td>L2</td>
-<td>Right Distance</td>
-<td>Int</td>
+<td>L4</td>
+<td>Position of Entity (Sentence)</td>
+<td>Sentence Index</td>
+</tr>
+<tr>
+<td>L5</td>
+<td>Start Entity</td>
+<td>Index</td>
+</tr>
+<tr>
+<td>L6</td>
+<td>End Entity</td>
+<td>Index</td>
 </tr>
 </tbody>
 </table>
-<ul>
-<li><p>[ ] 数据预处理</p>
+<p>数据预处理</p>
 <ul>
 <li><p>input format</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">np.array[[...feature_values...label],...]</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>output format <code>.csv</code></p>
-</li>
-</ul>
 </li>
 </ul>
 <h4 id="Model-Training"><a href="#Model-Training" class="headerlink" title="Model Training"></a>Model Training</h4><p>It seems to be better to use XGBoost as well as Scikit-Learning. In other words, use XGB.fit() rather then XGB.train().</p>
@@ -608,7 +575,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Task"><span class="nav-number">1.</span> <span class="nav-text">Task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Classes-Semantic-Relations"><span class="nav-number">2.</span> <span class="nav-text">Classes - Semantic Relations</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Model-Training"><span class="nav-number">3.</span> <span class="nav-text">Model Training</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Accuracy"><span class="nav-number">4.</span> <span class="nav-text">Accuracy</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Task"><span class="nav-number">1.</span> <span class="nav-text">Task</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Classes-Semantic-Relations"><span class="nav-number">2.</span> <span class="nav-text">Classes - Semantic Relations</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Features"><span class="nav-number">3.</span> <span class="nav-text">Features</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Model-Training"><span class="nav-number">4.</span> <span class="nav-text">Model Training</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Accuracy"><span class="nav-number">5.</span> <span class="nav-text">Accuracy</span></a></li></ol></div>
             
 
           </div>
