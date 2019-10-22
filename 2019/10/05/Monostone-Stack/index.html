@@ -6,10 +6,10 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-Hans">
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -48,9 +48,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="C++,Algorithm,">
+  <meta name="keywords" content="C++,Algorithm," />
 
 
 
@@ -79,18 +79,16 @@
 
 
 
-<meta name="description" content="单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为[1, 3, 5, 10, 30, 50]，那么，现欲将新元素20插入其中，需要率先弹出[30, 50]，再将元素20插入，用伪代码描述如下：12345insert xwhile !stack.empty() &amp;amp;&amp;amp; stack.top &amp;gt; x    stack.pop()stack.push(x)">
+<meta name="description" content="单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为[1, 3, 5, 10, 30, 50]，那么，现欲将新元素20插入其中，需要率先弹出[30, 50]，再将元素20插入，用伪代码描述如下： 12345insert xwhile !stack.empty() &amp;amp;&amp;amp; stack.top &amp;gt; x    stack.pop()stack.push(x">
 <meta name="keywords" content="C++,Algorithm">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Monostone Stack">
-<meta property="og:url" content="http://yoursite.com/2019/10/05/Monostone-Stack/index.html">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;05&#x2F;Monostone-Stack&#x2F;index.html">
 <meta property="og:site_name" content="乾震初九">
-<meta property="og:description" content="单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为[1, 3, 5, 10, 30, 50]，那么，现欲将新元素20插入其中，需要率先弹出[30, 50]，再将元素20插入，用伪代码描述如下：12345insert xwhile !stack.empty() &amp;amp;&amp;amp; stack.top &amp;gt; x    stack.pop()stack.push(x)">
+<meta property="og:description" content="单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为[1, 3, 5, 10, 30, 50]，那么，现欲将新元素20插入其中，需要率先弹出[30, 50]，再将元素20插入，用伪代码描述如下： 12345insert xwhile !stack.empty() &amp;amp;&amp;amp; stack.top &amp;gt; x    stack.pop()stack.push(x">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-10-05T02:05:59.806Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Monostone Stack">
-<meta name="twitter:description" content="单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为[1, 3, 5, 10, 30, 50]，那么，现欲将新元素20插入其中，需要率先弹出[30, 50]，再将元素20插入，用伪代码描述如下：12345insert xwhile !stack.empty() &amp;amp;&amp;amp; stack.top &amp;gt; x    stack.pop()stack.push(x)">
 
 
 
@@ -120,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/10/05/Monostone-Stack/">
+  <link rel="canonical" href="http://yoursite.com/2019/10/05/Monostone-Stack/"/>
 
 
 
@@ -154,7 +152,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">乾震初九</span>
         <span class="logo-line-after"><i></i></span>
@@ -182,19 +180,49 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+          <a href="/%20" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about/%20" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
           </a>
@@ -237,7 +265,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hybin Hwang">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="">
       <meta itemprop="image" content="http://i2.tiimg.com/681475/4206e4f214adf970.png">
     </span>
 
@@ -300,7 +328,9 @@
       
 
       
-        <p>单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为<code>[1, 3, 5, 10, 30, 50]</code>，那么，现欲将新元素<code>20</code>插入其中，需要率先弹出<code>[30, 50]</code>，再将元素<code>20</code>插入，用伪代码描述如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">insert x</span><br><span class="line">while !stack.empty() &amp;&amp; stack.top &gt; x</span><br><span class="line">    stack.pop()</span><br><span class="line"></span><br><span class="line">stack.push(x)</span><br></pre></td></tr></table></figure></p>
+        <p>单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为<code>[1, 3, 5, 10, 30, 50]</code>，那么，现欲将新元素<code>20</code>插入其中，需要率先弹出<code>[30, 50]</code>，再将元素<code>20</code>插入，用伪代码描述如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">insert x</span><br><span class="line">while !stack.empty() &amp;&amp; stack.top &gt; x</span><br><span class="line">    stack.pop()</span><br><span class="line"></span><br><span class="line">stack.push(x)</span><br></pre></td></tr></table></figure>
+
 <p>再来看实际应用，比如LeetCode中等难度题目<a href="https://leetcode-cn.com/problems/remove-k-digits/" target="_blank" rel="noopener">402. 移掉K位数字</a>。</p>
 <h4 id="移掉K位数字"><a href="#移掉K位数字" class="headerlink" title="移掉K位数字"></a>移掉K位数字</h4><blockquote>
 <p>给定一个以字符串表示的非负整数 num，移除这个数中的 k 位数字，使得剩下的数字最小。<br><strong>注意：</strong></p>
@@ -310,7 +340,8 @@
 </ul>
 </blockquote>
 <h5 id="Simple-Test-Case"><a href="#Simple-Test-Case" class="headerlink" title="Simple Test Case"></a>Simple Test Case</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">输入: num = &quot;1432219&quot;, k = 3</span><br><span class="line">输出: &quot;1219&quot;</span><br><span class="line">解释: 移除掉三个数字 4, 3, 和 2 形成一个新的最小的数字 1219。</span><br><span class="line">-----------</span><br><span class="line">输入: num = &quot;10200&quot;, k = 1</span><br><span class="line">输出: &quot;200&quot;</span><br><span class="line">解释: 移掉首位的 1 剩下的数字为 200. 注意输出不能有任何前导零。</span><br><span class="line">-----------</span><br><span class="line">输入: num = &quot;10&quot;, k = 2</span><br><span class="line">输出: &quot;0&quot;</span><br><span class="line">解释: 从原数字移除所有的数字，剩余为空就是0。</span><br></pre></td></tr></table></figure>
-<p>对此，可以采用单调栈结构来择取最小的数字，C++代码如下：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">removeKdigits</span><span class="params">(<span class="built_in">string</span> num, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> res;</span><br><span class="line">        <span class="keyword">int</span> n = num.size(), m = n - k;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">char</span> c : num) &#123;</span><br><span class="line">            <span class="keyword">while</span> (k &amp;&amp; res.size() &amp;&amp; res.back() &gt; c) &#123;</span><br><span class="line">                res.pop_back();</span><br><span class="line">                --k;</span><br><span class="line">            &#125;</span><br><span class="line">            res.push_back(c);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        res.resize(m);</span><br><span class="line">        <span class="comment">//去除前导0， 如10200，k = 1</span></span><br><span class="line">        <span class="keyword">while</span> (!res.empty() &amp;&amp; res[<span class="number">0</span>] == <span class="string">'0'</span>) &#123;</span><br><span class="line">            res.erase(res.begin());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res.empty() ? <span class="string">"0"</span> : res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>对此，可以采用单调栈结构来择取最小的数字，C++代码如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">removeKdigits</span><span class="params">(<span class="built_in">string</span> num, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">string</span> res;</span><br><span class="line">        <span class="keyword">int</span> n = num.size(), m = n - k;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">char</span> c : num) &#123;</span><br><span class="line">            <span class="keyword">while</span> (k &amp;&amp; res.size() &amp;&amp; res.back() &gt; c) &#123;</span><br><span class="line">                res.pop_back();</span><br><span class="line">                --k;</span><br><span class="line">            &#125;</span><br><span class="line">            res.push_back(c);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        res.resize(m);</span><br><span class="line">        <span class="comment">//去除前导0， 如10200，k = 1</span></span><br><span class="line">        <span class="keyword">while</span> (!res.empty() &amp;&amp; res[<span class="number">0</span>] == <span class="string">'0'</span>) &#123;</span><br><span class="line">            res.erase(res.begin());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res.empty() ? <span class="string">"0"</span> : res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>再来看单调递增的情况，比如LeetCode困难级别的题目<a href="https://leetcode-cn.com/problems/create-maximum-number/" target="_blank" rel="noopener">321. 拼接最大数</a>。</p>
 <h4 id="拼接最大数"><a href="#拼接最大数" class="headerlink" title="拼接最大数"></a>拼接最大数</h4><blockquote>
 <p>给定长度分别为<code>m</code>和<code>n</code>的两个数组，其元素由<code>0-9</code>构成，表示两个自然数各位上的数字。现在从这两个数组中选出<code>k (k &lt;= m + n)</code>个数字拼接成一个新的数，要求从同一个数组中取出的数字保持其在原数组中的相对顺序。</p>
@@ -320,7 +351,8 @@
 <p>说明: 请尽可能地优化你算法的时间和空间复杂度。</p>
 </blockquote>
 <h5 id="Simple-Test-Case-1"><a href="#Simple-Test-Case-1" class="headerlink" title="Simple Test Case"></a>Simple Test Case</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">输入:</span><br><span class="line">nums1 = [3, 4, 6, 5]</span><br><span class="line">nums2 = [9, 1, 2, 5, 8, 3]</span><br><span class="line">k = 5</span><br><span class="line">输出:</span><br><span class="line">[9, 8, 6, 5, 3]</span><br><span class="line">-----------</span><br><span class="line">输入:</span><br><span class="line">nums1 = [6, 7]</span><br><span class="line">nums2 = [6, 0, 4]</span><br><span class="line">k = 5</span><br><span class="line">输出:</span><br><span class="line">[6, 7, 6, 0, 4]</span><br><span class="line">-----------</span><br><span class="line">输入:</span><br><span class="line">nums1 = [3, 9]</span><br><span class="line">nums2 = [8, 9]</span><br><span class="line">k = 3</span><br><span class="line">输出:</span><br><span class="line">[9, 8, 9]</span><br></pre></td></tr></table></figure>
-<p>同样，一个简单的思路是，维护一个大小固定为<code>k</code>的单调栈，每次选出和最大的单调栈，最终得到拼接结果，C++代码如下：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxNumber(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums2, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> m = nums1.size(), n = nums2.size();</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = max(<span class="number">0</span>, k - n); i &lt;= min(k, m); ++i) &#123;</span><br><span class="line">            res = max(res, mergeVector(maxVector(nums1, i), maxVector(nums2, k - i)));</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 单调栈</span></span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> drop = nums.size() - k;</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            <span class="keyword">while</span> (drop &amp;&amp; res.size() &amp;&amp; res.back() &lt; num) &#123;</span><br><span class="line">                res.pop_back();</span><br><span class="line">                --drop;</span><br><span class="line">            &#125;</span><br><span class="line">            res.push_back(num);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        res.resize(k);</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; mergeVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums2) &#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">while</span>(nums1.size() + nums2.size()) &#123;</span><br><span class="line">            <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;tmp = nums1 &gt; nums2 ? nums1 : nums2;</span><br><span class="line">            res.push_back(tmp[<span class="number">0</span>]);</span><br><span class="line">            tmp.erase(tmp.begin());</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>同样，一个简单的思路是，维护一个大小固定为<code>k</code>的单调栈，每次选出和最大的单调栈，最终得到拼接结果，C++代码如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxNumber(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums2, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> m = nums1.size(), n = nums2.size();</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = max(<span class="number">0</span>, k - n); i &lt;= min(k, m); ++i) &#123;</span><br><span class="line">            res = max(res, mergeVector(maxVector(nums1, i), maxVector(nums2, k - i)));</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 单调栈</span></span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> drop = nums.size() - k;</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            <span class="keyword">while</span> (drop &amp;&amp; res.size() &amp;&amp; res.back() &lt; num) &#123;</span><br><span class="line">                res.pop_back();</span><br><span class="line">                --drop;</span><br><span class="line">            &#125;</span><br><span class="line">            res.push_back(num);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        res.resize(k);</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; mergeVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums2) &#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">while</span>(nums1.size() + nums2.size()) &#123;</span><br><span class="line">            <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;tmp = nums1 &gt; nums2 ? nums1 : nums2;</span><br><span class="line">            res.push_back(tmp[<span class="number">0</span>]);</span><br><span class="line">            tmp.erase(tmp.begin());</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -431,7 +463,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="http://i2.tiimg.com/681475/4206e4f214adf970.png" alt="Hybin Hwang">
+              <img class="site-author-image" itemprop="image"
+                src="http://i2.tiimg.com/681475/4206e4f214adf970.png"
+                alt="Hybin Hwang" />
             
               <p class="site-author-name" itemprop="name">Hybin Hwang</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -442,9 +476,9 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -457,7 +491,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -467,6 +501,16 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Hybin" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -510,7 +554,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -575,9 +619,10 @@
   
 
 
+
+
   
-
-
+  
 
 
 
@@ -619,7 +664,12 @@
 
   
   
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
