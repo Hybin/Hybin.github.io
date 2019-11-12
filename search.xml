@@ -4,6 +4,8 @@
     <title>Greedy</title>
     <url>/2019/11/11/Greedy/</url>
     <content><![CDATA[<p>狭义的贪心算法指的是解最优化问题的一种特殊方法，解决过程中总是做出当下最好的选择，因为具有最优子结构的特点，局部最优解可以得到全局最优解；这种贪心算法是动态规划的一种特例。能用贪心解决的问题，也可以用动态规划解决。</p>
+<a id="more"></a>
+
 <p>广义的贪心指的是一种通用的贪心策略，基于当前局面而进行贪心决策。举个例子：</p>
 <h4 id="12-整数转罗马数字"><a href="#12-整数转罗马数字" class="headerlink" title="12.整数转罗马数字"></a><a href="https://leetcode-cn.com/problems/integer-to-roman/" target="_blank" rel="noopener">12.整数转罗马数字</a></h4><blockquote>
 <p>罗马数字包含以下七种字符：<code>I</code>，<code>V</code>，<code>X</code>，<code>L</code>，<code>C</code>，<code>D</code>和<code>M</code>，分别表示<code>1</code>，<code>5</code>，<code>10</code>，<code>50</code>，<code>100</code>，<code>500</code>，<code>1000</code>。<br>给定一个整数，将其转为罗马数字。输入确保在 1 到 3999 的范围内。</p>
@@ -36,6 +38,8 @@
     <content><![CDATA[<blockquote>
 <p>对于文化人来说，电脑桌面就是一个人的牌面。<br>——沃·兹基硕德</p>
 </blockquote>
+<a id="more"></a>
+
 <p>不知道大家是否曾经苦恼过，如何找到令人耳目一新，体现个人文化品味的桌面壁纸？舍友许君是一位摄影大触，总能够精确地拍到那种发到朋友圈便会得到疯狂点赞的照片，这样的人是不会苦恼的。那么问题来了，假如我们没有单反，又不会拍照，如何愉快地崭露个人品（zhuāng）味（bī）？</p>
 <p>某位不愿透露姓名的阿伯说过，“只要思想不滑坡，办法总比困难多”。我们要做文化人，就要有文化人的样子，比如精致的瓷器，能够体现你深厚的知识积累，和毒辣的鉴别眼光；比如写意的水墨画，总能令你身上透露出不俗的雅趣，比如…（“别废话了，快上干货！”“好勒！”</p>
 <p>首先，鸣谢两位不愿透露姓名的陈焕茂同学和孙栋梁同学，为构造文化人的桌面提供了惊天动地的创意，而本人作为卑微的码农做了一点微小的工作。</p>
@@ -81,6 +85,8 @@
     <title>Sliding Window</title>
     <url>/2019/10/06/Sliding-Window/</url>
     <content><![CDATA[<p>滑动窗口（Sliding Window），顾名思义，即在数组/字符串设计一个左边界和一个右边界，从而获得一定长度的子元素，在此基础上，窗口随着边界的变化而滑动。其用于解决数组/字符串的子元素问题，它可以将嵌套的循环问题，转换为单循环问题，降低时间复杂度。</p>
+<a id="more"></a>
+
 <p>我们可以通过一组题目来比较好的理解滑动窗口的应用：</p>
 <h4 id="485-最大连续1的个数"><a href="#485-最大连续1的个数" class="headerlink" title="485. 最大连续1的个数"></a><a href="https://leetcode-cn.com/problems/max-consecutive-ones/" target="_blank" rel="noopener">485. 最大连续1的个数</a></h4><blockquote>
 <p>给定一个二进制数组， 计算其中最大连续1的个数。</p>
@@ -118,6 +124,8 @@
     <title>Monostone Stack</title>
     <url>/2019/10/05/Monostone-Stack/</url>
     <content><![CDATA[<p>单调栈，顾名思义，满足单调性的栈结构。举个例子，存在一个栈结构，自底向上的元素为<code>[1, 3, 5, 10, 30, 50]</code>，那么，现欲将新元素<code>20</code>插入其中，需要率先弹出<code>[30, 50]</code>，再将元素<code>20</code>插入，用伪代码描述如下：</p>
+<a id="more"></a>
+
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">insert x</span><br><span class="line">while !stack.empty() &amp;&amp; stack.top &gt; x</span><br><span class="line">    stack.pop()</span><br><span class="line"></span><br><span class="line">stack.push(x)</span><br></pre></td></tr></table></figure>
 
 <p>再来看实际应用，比如LeetCode中等难度题目<a href="https://leetcode-cn.com/problems/remove-k-digits/" target="_blank" rel="noopener">402. 移掉K位数字</a>。</p>
@@ -152,6 +160,8 @@
     <title>Factorial with big numbers</title>
     <url>/2019/07/20/Factorial-with-big-numbers/</url>
     <content><![CDATA[<p>在数学中，正整数的阶乘（Factorial）被定义为所有小于及等于该数的正整数的积，其数学表示为$n!=1 \times 2 \times 3 \times … \times n$，同时，定义$0!=1$，$1!=1$。当$n$比较小时，可以很方便地借助递归函数，求得其阶乘值，比如：</p>
+<a id="more"></a>
+
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="title">factorial</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> (n &gt; <span class="number">1</span>) ? n * factorial(n - <span class="number">1</span>) : <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <p>然而，当$n$比较大时，其阶乘值极大，不容易通过上述递归函数求得，比如：</p>
@@ -175,6 +185,8 @@
     <content><![CDATA[<blockquote>
 <p>Those who cannot remember the past are condemned to repeat it.</p>
 </blockquote>
+<a id="more"></a>
+
 <p>动态规划(Dynamic Programming)算法的核心是记住已经解决过的字问题的解。如何理解呢？举个例子：</p>
 <p>假如我们要求斐波那契数列中的第<code>n</code>个数，一种简单的求法是：</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fib</span><span class="params">(<span class="keyword">int</span> &amp;n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> n;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> fib(n<span class="number">-1</span>) + fib(n<span class="number">-2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -220,6 +232,7 @@
 <p>1.1 Relation classification on clean data</p>
 <p>1.2 Relation classification on noisy data</p>
 </blockquote>
+<p>&lt;! – more –&gt;</p>
 <h4 id="Classes-Semantic-Relations"><a href="#Classes-Semantic-Relations" class="headerlink" title="Classes - Semantic Relations"></a>Classes - Semantic Relations</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">relations = [<span class="string">'usage'</span>, <span class="string">'result'</span>, <span class="string">'model-feature'</span>, <span class="string">'part-whole'</span>, <span class="string">'topic'</span>, <span class="string">'comparison'</span>]</span><br></pre></td></tr></table></figure>
 
 <h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><p><strong>Lexical Features</strong></p>
