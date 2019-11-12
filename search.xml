@@ -232,10 +232,10 @@
 <p>1.1 Relation classification on clean data</p>
 <p>1.2 Relation classification on noisy data</p>
 </blockquote>
-<p>&lt;! – more –&gt;</p>
+<a id="more"></a>
 <h4 id="Classes-Semantic-Relations"><a href="#Classes-Semantic-Relations" class="headerlink" title="Classes - Semantic Relations"></a>Classes - Semantic Relations</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">relations = [<span class="string">'usage'</span>, <span class="string">'result'</span>, <span class="string">'model-feature'</span>, <span class="string">'part-whole'</span>, <span class="string">'topic'</span>, <span class="string">'comparison'</span>]</span><br></pre></td></tr></table></figure>
-
 <h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><p><strong>Lexical Features</strong></p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -244,7 +244,8 @@
 <th>Value</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>L1</td>
 <td>Distance which shows the distances between entities</td>
 <td>Int</td>
@@ -284,8 +285,11 @@
 <td>hasFrom</td>
 <td>Int(0, 1)</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p><strong>Entity Features</strong></p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -294,7 +298,8 @@
 <th>Value</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>L1</td>
 <td>For comparison, it’s necessary to measure Similarity(sim200)</td>
 <td>Float</td>
@@ -319,7 +324,9 @@
 <td>End Entity</td>
 <td>Index</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>数据预处理</p>
 <ul>
 <li><p>input format</p>
