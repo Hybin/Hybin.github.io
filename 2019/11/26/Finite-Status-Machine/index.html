@@ -53,21 +53,20 @@
   };
 </script>
 
-  <meta name="description" content="对于文化人来说，电脑桌面就是一个人的牌面。——沃·兹基硕德">
-<meta name="keywords" content="Python,爬虫,macOS">
+  <meta name="description" content="有限状态机（Finite-State Machine, FSM）表示有限个状态以及在这些状态之间的转移和动作等行为的数学计算模型。状态机可归纳为4个要素，即现态、条件、动作、次态。“现态”和“条件”是因，“动作”和“次态”是果。详解如下：  ① 现态：是指当前所处的状态。 ② 条件：又称为“事件”。当一个条件被满足，将会触发一个动作，或者执行一次状态的迁移。 ③ 动作：条件满足后执行的动作。动作执">
+<meta name="keywords" content="C++,Algorithm">
 <meta property="og:type" content="article">
-<meta property="og:title" content="如何整一个文化人的桌面？">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;22&#x2F;%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F&#x2F;index.html">
+<meta property="og:title" content="Finite-State Machine">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;26&#x2F;Finite-Status-Machine&#x2F;index.html">
 <meta property="og:site_name" content="乾震初九">
-<meta property="og:description" content="对于文化人来说，电脑桌面就是一个人的牌面。——沃·兹基硕德">
+<meta property="og:description" content="有限状态机（Finite-State Machine, FSM）表示有限个状态以及在这些状态之间的转移和动作等行为的数学计算模型。状态机可归纳为4个要素，即现态、条件、动作、次态。“现态”和“条件”是因，“动作”和“次态”是果。详解如下：  ① 现态：是指当前所处的状态。 ② 条件：又称为“事件”。当一个条件被满足，将会触发一个动作，或者执行一次状态的迁移。 ③ 动作：条件满足后执行的动作。动作执">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;22&#x2F;%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F&#x2F;系统偏好设置.png">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;22&#x2F;%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F&#x2F;桌面与屏幕保护程序.png">
-<meta property="og:updated_time" content="2019-11-12T07:10:40.899Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;26&#x2F;Finite-Status-Machine&#x2F;status.png">
+<meta property="og:updated_time" content="2019-11-26T11:22:54.238Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;22&#x2F;%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F&#x2F;系统偏好设置.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;26&#x2F;Finite-Status-Machine&#x2F;status.png">
 
-<link rel="canonical" href="http://yoursite.com/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/">
+<link rel="canonical" href="http://yoursite.com/2019/11/26/Finite-Status-Machine/">
 
 
 <script id="page-configurations">
@@ -81,7 +80,7 @@
   };
 </script>
 
-  <title>如何整一个文化人的桌面？ | 乾震初九</title>
+  <title>Finite-State Machine | 乾震初九</title>
   
 
 
@@ -216,7 +215,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/26/Finite-Status-Machine/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/Doctor">
@@ -229,7 +228,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          如何整一个文化人的桌面？
+          Finite-State Machine
         </h1>
 
         <div class="post-meta">
@@ -238,16 +237,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2019-10-22 19:22:23" itemprop="dateCreated datePublished" datetime="2019-10-22T19:22:23+08:00">2019-10-22</time>
+              <time title="创建时间：2019-11-26 17:18:48 / 修改时间：19:22:54" itemprop="dateCreated datePublished" datetime="2019-11-26T17:18:48+08:00">2019-11-26</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-11-12 15:10:40" itemprop="dateModified" datetime="2019-11-12T15:10:40+08:00">2019-11-12</time>
-              </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -262,14 +255,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.9k</span>
+              <span>1.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -281,33 +274,28 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <blockquote>
-<p>对于文化人来说，电脑桌面就是一个人的牌面。<br>——沃·兹基硕德</p>
-</blockquote>
-<a id="more"></a>
-<p>不知道大家是否曾经苦恼过，如何找到令人耳目一新，体现个人文化品味的桌面壁纸？舍友许君是一位摄影大触，总能够精确地拍到那种发到朋友圈便会得到疯狂点赞的照片，这样的人是不会苦恼的。那么问题来了，假如我们没有单反，又不会拍照，如何愉快地崭露个人品（zhuāng）味（bī）？</p>
-<p>某位不愿透露姓名的阿伯说过，“只要思想不滑坡，办法总比困难多”。我们要做文化人，就要有文化人的样子，比如精致的瓷器，能够体现你深厚的知识积累，和毒辣的鉴别眼光；比如写意的水墨画，总能令你身上透露出不俗的雅趣，比如…（“别废话了，快上干货！”“好勒！”</p>
-<p>首先，鸣谢两位不愿透露姓名的陈焕茂同学和孙栋梁同学，为构造文化人的桌面提供了惊天动地的创意，而本人作为卑微的码农做了一点微小的工作。</p>
-<p>我们的思路是这样的，故宫博物院为广大人民群众提供了精致而优雅的壁纸，并适配了不同分辨率的屏幕，还不定期更新（就问你贴不贴心？</p>
-<p>普通人如何整一个文化人的桌面呢？很简单，打开<a href="https://www.dpm.org.cn/lights/royal.html" target="_blank" rel="noopener">故宫壁纸</a>，选择喜欢的壁纸，并根据自己电脑的分辨率下载壁纸即可，而后完成壁纸更换。（论文化人的诞生…</p>
-<p>如果单单是这样，那么对懒癌文化人太不友好了，而且，一张图片怎能凸显我是整个图书馆最靓的崽？</p>
+        <p>有限状态机（Finite-State Machine, FSM）表示有限个状态以及在这些状态之间的转移和动作等行为的数学计算模型。状态机可归纳为4个要素，即现态、条件、动作、次态。“现态”和“条件”是因，“动作”和“次态”是果。详解如下：</p>
 <blockquote>
-<p>小孩子才做选择，成年人全部都要！</p>
+<p>① 现态：是指当前所处的状态。</p>
+<p>② 条件：又称为“事件”。当一个条件被满足，将会触发一个动作，或者执行一次状态的迁移。</p>
+<p>③ 动作：条件满足后执行的动作。动作执行完毕后，可以迁移到新的状态，也可以仍旧保持原状态。动作不是必需的，当条件满足后，也可以不执行任何动作，直接迁移到新状态。</p>
+<p>④ 次态：条件满足后要迁往的新状态。“次态”是相对于“现态”而言的，“次态”一旦被激活，就转变成新的“现态”了。</p>
 </blockquote>
-<p>所以，答案呼之欲出，人生苦短，我用Python，爬虫搞起！</p>
-<p>啥也不说了，代码在这里：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">from</span> urllib.request <span class="keyword">import</span> urlopen, urlretrieve</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Scraper</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">        self.url = <span class="string">'https://www.dpm.org.cn//lights/royal/p/&#123;&#125;.html'</span></span><br><span class="line">        <span class="comment"># 保存壁纸的文件夹，要自己设置哦～</span></span><br><span class="line">        self.directory = <span class="string">'./backgrounds/'</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># 由于天长日久，故宫壁纸项目也一直在完善</span></span><br><span class="line">        <span class="comment"># 所以，图片源会有变化，此处仅提供近期的图片源</span></span><br><span class="line">        <span class="comment"># 有需要的话，可以自己检查元素获取图片源哦～</span></span><br><span class="line">        self.source = <span class="string">'https://www.dpm.org.cn/download/lights_image/id/&#123;&#125;/img_size/4.html'</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">load</span><span class="params">(self, page)</span>:</span></span><br><span class="line">        doc = urlopen(self.url.format(page))</span><br><span class="line">        soup = BeautifulSoup(doc, <span class="string">'html.parser'</span>)</span><br><span class="line">        images = soup.find_all(<span class="string">'div'</span>, class_=<span class="string">'pic'</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> image <span class="keyword">in</span> images:</span><br><span class="line">            name = image.find(<span class="string">'img'</span>)[<span class="string">'title'</span>] + <span class="string">'.jpg'</span></span><br><span class="line">            image_id = image.find(<span class="string">'a'</span>)[<span class="string">'href'</span>].split(<span class="string">'/'</span>)[<span class="number">-1</span>].split(<span class="string">'.'</span>)[<span class="number">0</span>]</span><br><span class="line">            urlretrieve(self.source.format(image_id), os.path.join(self.directory, name))</span><br><span class="line"></span><br><span class="line">        print(<span class="string">'Complete! Pictures are in '</span> + self.directory)</span><br><span class="line"></span><br><span class="line">scraper = Scraper()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 其实就是故宫壁纸网站的页码</span></span><br><span class="line">page = input(<span class="string">'输入你的幸运数字：'</span>)</span><br><span class="line"></span><br><span class="line">scraper.load(page)</span><br></pre></td></tr></table></figure></p>
-<p>想要运行上述代码，则需要你的电脑能够运行<code>Python@&gt;=3.0</code>，那么，假如你的电脑是mac，又安装了<a href="https://brew.sh" target="_blank" rel="noopener">Homebrew</a>，那么你可以：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install python</span><br></pre></td></tr></table></figure></p>
-<p>假如你的电脑是Windows，又安装了<a href="https://scoop.sh" target="_blank" rel="noopener">Scoop</a>，那么，你可以：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ scoop install python</span><br></pre></td></tr></table></figure></p>
-<p>接下来，我们需要安装爬虫依赖包<code>BeautifulSoup</code>，即：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip install bs4</span><br></pre></td></tr></table></figure></p>
-<p>现在，你即将成为准文化人，继续命令行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="comment"># 打开源代码所在文件夹</span></span><br><span class="line">$ <span class="built_in">cd</span> /path/to/source.py</span><br><span class="line">$ <span class="comment"># 运行源代码</span></span><br><span class="line">$ python source.py</span><br></pre></td></tr></table></figure></p>
-<p>事情结束了嘛？并没有！可达鸭眉头一皱，发现事情并不简单！假如我们想要让桌面壁纸每隔一段时间换一张，咋整呢？</p>
-<p>第一步，打开<code>系统偏好设置</code>：<br><img src="/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/系统偏好设置.png" alt="系统偏好设置"></p>
-<p>第二步，选择<code>桌面与屏幕保护程序</code>：<br><img src="/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/桌面与屏幕保护程序.png" alt="桌面与屏幕保护程序"></p>
-<p>还记得之前保存图片的文件夹嘛？点击<code>+</code>，选择那个文件夹，而后勾选<code>更改图片</code>和<code>随机顺序</code>，完结撒花🎉！</p>
-<p>从现在开始，你就是一个文化人了！</p>
-<blockquote>
-<p>题外话：<br>某位不愿透露姓名的陈焕茂同学表示，“自从用了故宫壁纸，随机切换，每天腰不酸、腿不…不是，每天都有新的惊喜！”</p>
+<p>有限状态机对于算法求解具有重要的意义，其可以简化问题，使得复杂的递推关系转换为简单的状态转移问题。比如：</p>
+<h4 id="552-学生出勤记录-II"><a href="#552-学生出勤记录-II" class="headerlink" title="552. 学生出勤记录 II"></a><a href="https://leetcode-cn.com/problems/student-attendance-record-ii/" target="_blank" rel="noopener">552. 学生出勤记录 II</a></h4><blockquote>
+<p>给定一个正整数<code>n</code>，返回长度为<code>n</code>的所有可被视为可奖励的出勤记录的数量。 答案可能非常大，你只需返回结果<code>mod 1e9 + 7</code>的值。</p>
+<p>学生出勤记录是只包含以下三个字符的字符串：</p>
+<ol>
+<li>‘A’ : Absent，缺勤</li>
+<li>‘L’ : Late，迟到</li>
+<li>‘P’ : Present，到场<br>如果记录不包含多于一个’A’（缺勤）或超过两个连续的’L’（迟到），则该记录被视为可奖励的。</li>
+</ol>
 </blockquote>
+<h5 id="Simple-test-cases"><a href="#Simple-test-cases" class="headerlink" title="Simple test cases"></a>Simple test cases</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入: n = 2</span><br><span class="line">输出: 8 </span><br><span class="line">解释：</span><br><span class="line">有8个长度为2的记录将被视为可奖励：</span><br><span class="line">&quot;PP&quot; , &quot;AP&quot;, &quot;PA&quot;, &quot;LP&quot;, &quot;PL&quot;, &quot;AL&quot;, &quot;LA&quot;, &quot;LL&quot;</span><br><span class="line">只有&quot;AA&quot;不会被视为可奖励，因为缺勤次数超过一次。</span><br></pre></td></tr></table></figure>
+<p>对于这个问题，我们的直觉是通过构造全排列，并依照判断条件，对符合条件的记录进行计数。显然，依照直觉暴力求解，必然会遇到超时问题。更好的思路是基于动态规划的思想，构造状态转移方程。但就本题而言，借助有限状态机，会大大地简化问题。</p>
+<p>先来看题目，对于不可奖励的记录，其要么包含<code>2+</code>的<code>A</code>，或<code>3+</code>的连续的<code>L</code>，那么，仅仅需要考虑<code>A</code>和<code>L</code>的情况，我们将有限状态机画出来，得到：<br><img src="/2019/11/26/Finite-Status-Machine/status.png" alt="有限状态机"></p>
+<p>由上图可见，对于节点<code>A0L0</code>，其入度为3，而节点<code>A1L0</code>入度为6，那么代码可以表示为：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">checkRecord</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> m = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">long</span> <span class="keyword">long</span> a0l0 = <span class="number">1</span>, a0l1 = <span class="number">0</span>, a0l2 = <span class="number">0</span>, a1l0 = <span class="number">0</span>, a1l1 = <span class="number">0</span>, a1l2 = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">            <span class="keyword">long</span> <span class="keyword">long</span> a0l0_ = (a0l0 + a0l1 + a0l2) % m;</span><br><span class="line">            a0l2 = a0l1;</span><br><span class="line">            a0l1 = a0l0;</span><br><span class="line">            a0l0 = a0l0_;</span><br><span class="line">            <span class="keyword">long</span> <span class="keyword">long</span> a1l0_ = (a0l0 + a1l0 + a1l1 + a1l2) % m;</span><br><span class="line">            a1l2 = a1l1;</span><br><span class="line">            a1l1 = a1l0;</span><br><span class="line">            a1l0 = a1l0_;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>)a1l0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>以上！</p>
 
     </div>
@@ -318,26 +306,22 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Python/" rel="tag"># Python</a>
-              <a href="/tags/%E7%88%AC%E8%99%AB/" rel="tag"># 爬虫</a>
-              <a href="/tags/macOS/" rel="tag"># macOS</a>
+              <a href="/tags/C/" rel="tag"># C++</a>
+              <a href="/tags/Algorithm/" rel="tag"># Algorithm</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
-                <a href="/2019/10/06/Sliding-Window/" rel="next" title="Sliding Window">
-                  <i class="fa fa-chevron-left"></i> Sliding Window
+                <a href="/2019/11/11/Greedy/" rel="next" title="Greedy">
+                  <i class="fa fa-chevron-left"></i> Greedy
                 </a>
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-                <a href="/2019/11/11/Greedy/" rel="prev" title="Greedy">
-                  Greedy <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
       </footer>
@@ -376,6 +360,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#552-学生出勤记录-II"><span class="nav-number">1.</span> <span class="nav-text">552. 学生出勤记录 II</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Simple-test-cases"><span class="nav-number">1.1.</span> <span class="nav-text">Simple test cases</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
