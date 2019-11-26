@@ -3,7 +3,9 @@
   <entry>
     <title>Finite-State Machine</title>
     <url>/2019/11/26/Finite-Status-Machine/</url>
-    <content><![CDATA[<p>有限状态机（Finite-State Machine, FSM）表示有限个状态以及在这些状态之间的转移和动作等行为的数学计算模型。状态机可归纳为4个要素，即现态、条件、动作、次态。“现态”和“条件”是因，“动作”和“次态”是果。详解如下：</p>
+    <content><![CDATA[<p>有限状态机（Finite-State Machine, FSM）表示有限个状态以及在这些状态之间的转移和动作等行为的数学计算模型。状态机可归纳为4个要素，即现态、条件、动作、次态。“现态”和“条件”是因，“动作”和“次态”是果。</p>
+<a id="more"></a>
+<p>详解如下：</p>
 <blockquote>
 <p>① 现态：是指当前所处的状态。</p>
 <p>② 条件：又称为“事件”。当一个条件被满足，将会触发一个动作，或者执行一次状态的迁移。</p>
