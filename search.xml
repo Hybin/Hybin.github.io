@@ -4,7 +4,7 @@
     <title>TypeScript with Laravel Mix</title>
     <url>/2019/11/29/TypeScript-with-Laravel-Mix/</url>
     <content><![CDATA[<p>当我们使用<a href="https://laravel.com/" target="_blank" rel="noopener">Laravel框架</a>开发网站时，需要编译JavaScript及SASS以实现我们的网页设计。通常情况下，前端JavaScript代码位于下述路径：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/resources/assets/js/app.js</span><br></pre></td></tr></table></figure><br>对于规模比较小的项目，我们可以直接在<code>app.js</code>中加入我们的JavaScript代码，无论基于什么前端框架。然而，随着项目规模逐渐增大，代码量越来越多，对代码进行模块化显得愈发重要（当然，这也是一个很好的编码习惯，最好从项目开始，就有这样的意识）。<br><a id="more"></a></p>
-<h4 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h4><blockquote>
+<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><blockquote>
 <p>对于部分可复用函数，我想将其单独存放，汇集成一个代码源文件，并<code>import</code>到<code>app.js</code>中来，同时，我亦想用TypeScript语言替换JavaScript语言以获得清晰的类型声明，我要怎么处理？</p>
 </blockquote>
 <h4 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h4><p>对于这一问题，我们可以分两步走:</p>
