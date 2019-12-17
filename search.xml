@@ -3,7 +3,7 @@
   <entry>
     <title>C++ With VSCode</title>
     <url>/2019/12/17/C-With-VSCode/</url>
-    <content><![CDATA[<p>在学习<code>C++</code>的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者CLion创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助<code>Visual Studio Code</code>和<code>CMake</code>，能够十分方便地完成源代码构建，故而在此记录一下。</p>
+    <content><![CDATA[<p>在学习<code>C++</code>的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者<a href="https://www.jetbrains.com/clion/" target="_blank" rel="noopener">CLion</a>创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助<code>Visual Studio Code</code>和<code>CMake</code>，能够十分方便地完成源代码构建，故而在此记录一下。</p>
 <a id="more"></a>
 <p>首先，下载<code>Visual Studio Code</code>及相关插件：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ brew cask install vscode</span><br></pre></td></tr></table></figure>
