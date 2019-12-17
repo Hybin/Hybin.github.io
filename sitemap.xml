@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/12/17/C-With-VSCode/</loc>
+    
+    <lastmod>2019-12-17T13:22:59.667Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/12/15/Heap-and-Sliding-Window/</loc>
     
     <lastmod>2019-12-15T12:57:49.032Z</lastmod>

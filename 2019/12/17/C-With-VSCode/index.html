@@ -53,16 +53,20 @@
   };
 </script>
 
-  <meta name="description" content="洛阳亲友如相问，就说我在写作业">
-<meta property="og:type" content="website">
-<meta property="og:title" content="乾震初九">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;tags&#x2F;%E7%88%AC%E8%99%AB&#x2F;index.html">
+  <meta name="description" content="在学习C++的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者CLion创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助Visual Studio Code和CMake，能够十分方便地完成源代码构建，故而在此记录一下。">
+<meta name="keywords" content="Development Tool,Configuration">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++ With VSCode">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;17&#x2F;C-With-VSCode&#x2F;index.html">
 <meta property="og:site_name" content="乾震初九">
-<meta property="og:description" content="洛阳亲友如相问，就说我在写作业">
+<meta property="og:description" content="在学习C++的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者CLion创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助Visual Studio Code和CMake，能够十分方便地完成源代码构建，故而在此记录一下。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;17&#x2F;C-With-VSCode&#x2F;hybin&#x2F;Documents&#x2F;Blog&#x2F;source&#x2F;_posts&#x2F;C-With-VSCode&#x2F;screenshot.png">
+<meta property="og:updated_time" content="2019-12-17T13:22:59.667Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;17&#x2F;C-With-VSCode&#x2F;hybin&#x2F;Documents&#x2F;Blog&#x2F;source&#x2F;_posts&#x2F;C-With-VSCode&#x2F;screenshot.png">
 
-<link rel="canonical" href="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/">
+<link rel="canonical" href="http://yoursite.com/2019/12/17/C-With-VSCode/">
 
 
 <script id="page-configurations">
@@ -70,13 +74,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>标签: 爬虫 | 乾震初九</title>
+  <title>C++ With VSCode | 乾震初九</title>
   
 
 
@@ -206,50 +210,125 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">爬虫
-          <small>标签</small>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/12/17/C-With-VSCode/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/Doctor">
+      <meta itemprop="name" content="Hybin Hwang">
+      <meta itemprop="description" content="洛阳亲友如相问，就说我在写作业">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="乾震初九">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C++ With VSCode
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-12-17 21:04:28 / 修改时间：21:22:59" itemprop="dateCreated datePublished" datetime="2019-12-17T21:04:28+08:00">2019-12-17</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>719</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
+        <p>在学习<code>C++</code>的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者CLion创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助<code>Visual Studio Code</code>和<code>CMake</code>，能够十分方便地完成源代码构建，故而在此记录一下。</p>
+<a id="more"></a>
+<p>首先，下载<code>Visual Studio Code</code>及相关插件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew cask install vscode</span><br></pre></td></tr></table></figure>
+<p>安装完毕之后，打开<code>Visual Studio Code</code>并使用快捷键<code>Shift+cmd+P</code>唤出命令行，输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ext</span><br></pre></td></tr></table></figure>
+<p>选择<strong>Extensions: Install Extensions</strong>，而后搜索并安装：</p>
+<ul>
+<li>C/C++</li>
+<li>CMake</li>
+<li>CMake Tools</li>
+</ul>
+<hr>
+<p>接下来，创建新的代码文件，并于根目录创建<code>CMakeLists.txt</code>：</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># CMakeLists.txt</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.14</span>)</span><br><span class="line"><span class="keyword">project</span>(DSAC)                   <span class="comment"># Project name</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_STANDARD <span class="number">14</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(Codes                       <span class="comment"># Project files</span></span><br><span class="line">        source/header.h</span><br><span class="line">        source/<span class="keyword">file</span>.cpp)</span><br><span class="line"></span><br><span class="line"><span class="keyword">add_executable</span>(DSAC <span class="variable">$&#123;Codes&#125;</span>)</span><br></pre></td></tr></table></figure>
+<p>将源代码文件加入到<code>CMakeLists.txt</code>，编译器就知道将相关文件链接到一起。最后，到了关键时刻，你可以直接点击左下角的<code>生成</code>，完成代码构建：</p>
+<p><img src="/2019/12/17/C-With-VSCode/hybin/Documents/Blog/source/_posts/C-With-VSCode/screenshot.png" alt></p>
+<p>同时，你也可以设计快捷键唤起<code>生成</code>。而后，你就可以直接使用命令行运行可执行文件啦！</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /path/to/project/build</span><br><span class="line">$ ./project</span><br></pre></td></tr></table></figure>
+<p>以上！</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-22T19:22:23+08:00"
-              content="2019-10-22">
-          10-22
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Development-Tool/" rel="tag"># Development Tool</a>
+              <a href="/tags/Configuration/" rel="tag"># Configuration</a>
+          </div>
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/" itemprop="url">
-            <span itemprop="name">如何整一个文化人的桌面？</span>
-          </a>
-      </h2>
+        
 
-    </header>
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2019/12/15/Heap-and-Sliding-Window/" rel="next" title="Heap and Sliding Window">
+                  <i class="fa fa-chevron-left"></i> Heap and Sliding Window
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
   </article>
+  
+  
+  
 
-    </div>
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>

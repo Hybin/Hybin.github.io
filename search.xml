@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++ With VSCode</title>
+    <url>/2019/12/17/C-With-VSCode/</url>
+    <content><![CDATA[<p>在学习<code>C++</code>的过程中，经常会遇到一个场景，发现一个新的小知识点，希望借助代码进行验证。这时，基于MacOS环境，直观的做法是打开Xcode或者CLion创建新的C++项目。然而，这不免给人一种不够轻巧的感觉。经过一阵摸索，发现借助<code>Visual Studio Code</code>和<code>CMake</code>，能够十分方便地完成源代码构建，故而在此记录一下。</p>
+<a id="more"></a>
+<p>首先，下载<code>Visual Studio Code</code>及相关插件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ brew cask install vscode</span><br></pre></td></tr></table></figure>
+<p>安装完毕之后，打开<code>Visual Studio Code</code>并使用快捷键<code>Shift+cmd+P</code>唤出命令行，输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ext</span><br></pre></td></tr></table></figure>
+<p>选择<strong>Extensions: Install Extensions</strong>，而后搜索并安装：</p>
+<ul>
+<li>C/C++</li>
+<li>CMake</li>
+<li>CMake Tools</li>
+</ul>
+<hr>
+<p>接下来，创建新的代码文件，并于根目录创建<code>CMakeLists.txt</code>：</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="comment"># CMakeLists.txt</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.14</span>)</span><br><span class="line"><span class="keyword">project</span>(DSAC)                   <span class="comment"># Project name</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(CMAKE_CXX_STANDARD <span class="number">14</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(Codes                       <span class="comment"># Project files</span></span><br><span class="line">        source/header.h</span><br><span class="line">        source/<span class="keyword">file</span>.cpp)</span><br><span class="line"></span><br><span class="line"><span class="keyword">add_executable</span>(DSAC <span class="variable">$&#123;Codes&#125;</span>)</span><br></pre></td></tr></table></figure>
+<p>将源代码文件加入到<code>CMakeLists.txt</code>，编译器就知道将相关文件链接到一起。最后，到了关键时刻，你可以直接点击左下角的<code>生成</code>，完成代码构建：</p>
+<p><img src="/2019/12/17/C-With-VSCode/hybin/Documents/Blog/source/_posts/C-With-VSCode/screenshot.png" alt></p>
+<p>同时，你也可以设计快捷键唤起<code>生成</code>。而后，你就可以直接使用命令行运行可执行文件啦！</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /path/to/project/build</span><br><span class="line">$ ./project</span><br></pre></td></tr></table></figure>
+<p>以上！</p>
+]]></content>
+      <tags>
+        <tag>Development Tool</tag>
+        <tag>Configuration</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Heap and Sliding Window</title>
     <url>/2019/12/15/Heap-and-Sliding-Window/</url>
     <content><![CDATA[<p>针对数据结构中的<strong style="color: rgb(217,70,82)">堆(Heap)</strong>，素来比较陌生，也不知道该如何使用。今天来理一理<strong style="color: rgb(217,70,82)">堆</strong>的概念。<strong style="color: rgb(217,70,82)">堆(Heap)</strong>又称<strong style="color: rgb(217,70,82)">优先队列(Priority Queue)</strong>，其内部元素并非按照一般的“先进先出”原则，而是按照优先级取出元素。此外，堆又可分为大根堆与小根堆。为了更清晰地了解堆的使用，来看一道算法题：</p>
@@ -51,8 +80,8 @@
 <p>以上！</p>
 ]]></content>
       <tags>
-        <tag>Algorithm</tag>
         <tag>C++</tag>
+        <tag>Algorithm</tag>
         <tag>Data Structure</tag>
       </tags>
   </entry>
@@ -113,8 +142,8 @@
 <p>以上！</p>
 ]]></content>
       <tags>
-        <tag>Algorithm</tag>
         <tag>C++</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -140,8 +169,8 @@
 <p>此外，要注意对数组进行排序时，在<strong>C++</strong>排序函数尽量使用<code>&gt;</code>、<code>&lt;</code>、<code>=</code>符号，不要使用<code>+</code>、<code>-</code>符号，后者可能会出错。</p>
 ]]></content>
       <tags>
-        <tag>Algorithm</tag>
         <tag>C++</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -211,8 +240,8 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">longestOnes</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; A, <span class="keyword">int</span> K)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> count = <span class="number">0</span>, l = <span class="number">0</span>, r = <span class="number">0</span>; r &lt; A.size(); ++r) &#123;</span><br><span class="line">            <span class="keyword">if</span> (A[r] == <span class="number">1</span>) count++;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">while</span> (r - l + <span class="number">1</span> - count &gt; K) &#123;</span><br><span class="line">                <span class="keyword">if</span> (A[l++]) --count;</span><br><span class="line">            &#125;</span><br><span class="line">            res = max(res, r - l + <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>Algorithm</tag>
         <tag>C++</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -237,8 +266,8 @@
 <p>同样，一个简单的思路是，维护一个大小固定为<code>k</code>的单调栈，每次选出和最大的单调栈，最终得到拼接结果，C++代码如下：<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxNumber(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums2, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> m = nums1.size(), n = nums2.size();</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = max(<span class="number">0</span>, k - n); i &lt;= min(k, m); ++i) &#123;</span><br><span class="line">            res = max(res, mergeVector(maxVector(nums1, i), maxVector(nums2, k - i)));</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 单调栈</span></span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; maxVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums, <span class="keyword">int</span> k) &#123;</span><br><span class="line">        <span class="keyword">int</span> drop = nums.size() - k;</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            <span class="keyword">while</span> (drop &amp;&amp; res.size() &amp;&amp; res.back() &lt; num) &#123;</span><br><span class="line">                res.pop_back();</span><br><span class="line">                --drop;</span><br><span class="line">            &#125;</span><br><span class="line">            res.push_back(num);</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        res.resize(k);</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; mergeVector(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums1, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; nums2) &#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">        <span class="keyword">while</span>(nums1.size() + nums2.size()) &#123;</span><br><span class="line">            <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;tmp = nums1 &gt; nums2 ? nums1 : nums2;</span><br><span class="line">            res.push_back(tmp[<span class="number">0</span>]);</span><br><span class="line">            tmp.erase(tmp.begin());</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <tags>
-        <tag>Algorithm</tag>
         <tag>C++</tag>
+        <tag>Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -285,8 +314,8 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> <span class="title">countChange</span><span class="params">(<span class="keyword">const</span> <span class="keyword">unsigned</span> <span class="keyword">int</span> money, <span class="keyword">const</span> <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">unsigned</span> <span class="keyword">int</span>&gt;&amp; coins)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span>&gt; ways(money + <span class="number">1</span>, <span class="number">0</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// Initialization</span></span><br><span class="line">    ways[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> &amp;coin : coins) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; money + <span class="number">1</span>; ++i) &#123;</span><br><span class="line">            <span class="keyword">if</span> (coin &lt;= i) &#123;</span><br><span class="line">                ways[i] += ways[i - coin];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> ways[money];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>C++</tag>
         <tag>动态规划</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
