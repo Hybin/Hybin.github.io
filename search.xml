@@ -8,7 +8,8 @@
 <h4 id="打怪达人"><a href="#打怪达人" class="headerlink" title="打怪达人"></a><a href="https://www.lintcode.com/problem/monster-hunter/description" target="_blank" rel="noopener">打怪达人</a></h4><blockquote>
 <p>你是一个猎人,现在你面对一队排成一排的怪物。每只怪物都有一定的主动攻击力<code>atk1[]</code>和附带攻击力<code>atk2[]</code>。每回合你可以击杀任意一头怪物,此时你受到的伤害为<code>（这只怪物的主动攻击力+相邻的两只怪物的附带攻击力）</code>。<br>请问你如何选择杀怪物的顺序，使自己杀完所有的怪物后受到的伤害最小?输出受到的最小伤害。</p>
 </blockquote>
-<h5 id="Simple-Test-Cases"><a href="#Simple-Test-Cases" class="headerlink" title="Simple Test Cases"></a>Simple Test Cases</h5><blockquote>
+<h5 id="Simple-Test-Cases"><a href="#Simple-Test-Cases" class="headerlink" title="Simple Test Cases"></a>Simple Test Cases</h5><p>&gt;</p>
+<blockquote>
 <h2 id><a href="#" class="headerlink" title></a><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Input：[1,4,5,4],[3,4,9,1]</span><br><span class="line">Output：24</span><br><span class="line">Explanation：</span><br><span class="line">2-&gt;1-&gt;0-&gt;3</span><br><span class="line">2：5+4+1=10</span><br><span class="line">1：4+3+1=8</span><br><span class="line">0：1+1=2</span><br><span class="line">3：4</span><br><span class="line">10+8+2+4=24</span><br></pre></td></tr></table></figure></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Input：[3,5,7],[0,2,0]</span><br><span class="line">Output：17</span><br><span class="line">Explanation:</span><br><span class="line">0-&gt;1-&gt;2</span><br><span class="line">0：3+2=5</span><br><span class="line">1：5+0=5</span><br><span class="line">2：7</span><br><span class="line">5+5+7=17</span><br></pre></td></tr></table></figure>
 </blockquote>
 <h5 id="Limit"><a href="#Limit" class="headerlink" title="Limit"></a>Limit</h5><p>$n \leq 200$</p>
