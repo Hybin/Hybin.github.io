@@ -5,9 +5,9 @@
   <subtitle>无妄，往吉</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://hybin.github.io/"/>
   <updated>2020-02-06T10:26:00.349Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://hybin.github.io/</id>
   
   <author>
     <name>Hybin Hwang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>与TLE斗争到底系列（三）：记忆化搜索</title>
-    <link href="http://yoursite.com/2020/02/06/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/"/>
-    <id>http://yoursite.com/2020/02/06/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/</id>
+    <link href="https://hybin.github.io/2020/02/06/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/"/>
+    <id>https://hybin.github.io/2020/02/06/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/</id>
     <published>2020-02-06T09:39:02.000Z</published>
     <updated>2020-02-06T10:26:00.349Z</updated>
     
@@ -32,19 +32,19 @@
     </summary>
     
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://hybin.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>与TLE斗争到底系列（二）：双向扫描</title>
-    <link href="http://yoursite.com/2020/01/15/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%8F%8C%E5%90%91%E6%89%AB%E6%8F%8F/"/>
-    <id>http://yoursite.com/2020/01/15/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%8F%8C%E5%90%91%E6%89%AB%E6%8F%8F/</id>
+    <link href="https://hybin.github.io/2020/01/15/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%8F%8C%E5%90%91%E6%89%AB%E6%8F%8F/"/>
+    <id>https://hybin.github.io/2020/01/15/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%8F%8C%E5%90%91%E6%89%AB%E6%8F%8F/</id>
     <published>2020-01-15T10:29:26.000Z</published>
     <updated>2020-01-15T11:05:13.843Z</updated>
     
@@ -57,48 +57,48 @@
     </summary>
     
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://hybin.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
-      <category term="Tencent" scheme="http://yoursite.com/tags/Tencent/"/>
+      <category term="Tencent" scheme="https://hybin.github.io/tags/Tencent/"/>
     
   </entry>
   
   <entry>
     <title>与TLE斗争到底系列（一）：堆的应用</title>
-    <link href="http://yoursite.com/2020/01/14/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A0%86%E7%9A%84%E5%BA%94%E7%94%A8/"/>
-    <id>http://yoursite.com/2020/01/14/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A0%86%E7%9A%84%E5%BA%94%E7%94%A8/</id>
+    <link href="https://hybin.github.io/2020/01/14/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A0%86%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    <id>https://hybin.github.io/2020/01/14/%E4%B8%8ETLE%E6%96%97%E4%BA%89%E5%88%B0%E5%BA%95%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A0%86%E7%9A%84%E5%BA%94%E7%94%A8/</id>
     <published>2020-01-14T09:29:53.000Z</published>
     <updated>2020-01-14T11:46:42.630Z</updated>
     
-    <content type="html"><![CDATA[<p>对我来说，<a href="https://codingcompetitions.withgoogle.com/kickstart/" target="_blank" rel="noopener">Google Kick Start</a> 就是一条充满荆棘的山路，无处不在的<code>WA</code>和<code>TLE</code>整得人简直没脾气。接下来一段时间，我打算在这条路上好好走上一走，四处看看，与<code>TLE</code>斗争到底。一般来说，<code>TLE</code>发生的原因即在于时间复杂度过高，需要想办法优化代码，其中一个思路是借助堆的应用，之前的也有<a href="https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/#more" target="_blank" rel="noopener">文章</a>提到，本文从一道更难的题目入手，一起来看看如何借助堆优化时间复杂度。</p><a id="more"></a><h4 id="H-index"><a href="#H-index" class="headerlink" title="H-index"></a><a href="https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd/00000000001a274e" target="_blank" rel="noopener">H-index</a></h4><blockquote><p>It is important for researchers to write many high quality academic papers. Jorge has recently discovered a way to measure how impactful a researcher’s papers are: the <a href="https://en.wikipedia.org/wiki/H-index" target="_blank" rel="noopener">H-index</a>.</p><p>The <em>H-index score</em> of a researcher is the largest integer h such that the researcher has h papers with at least h citations each.</p><p>Jorge has written <strong>N</strong> papers in his lifetime. The i-th paper has <strong>Ai</strong> citations. The number of citations that each paper has will never change after it is written. Please help Jorge determine his H-index score after each paper he wrote.</p></blockquote><h5 id="Simple-Test-Cases"><a href="#Simple-Test-Cases" class="headerlink" title="Simple Test Cases"></a>Simple Test Cases</h5><blockquote><p><strong>Input</strong></p><p>The first line of the input gives the number of test cases, <strong>T</strong>. <strong>T</strong> test cases follow. Each test case begins with a line containing <strong>N</strong>, the number of papers Jorge wrote.</p><p>The second line contains <strong>N</strong> integers. The i-th integer is <strong>Ai</strong>, the number of citations the i-th paper has.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">3</span><br><span class="line">5 1 2</span><br><span class="line">6</span><br><span class="line">1 3 3 2 2 15</span><br></pre></td></tr></table></figure><hr><p><strong>Output</strong></p><p>For each test case, output one line containing <code>Case #x: y</code>, where <code>x</code> is the test case number (starting from 1) and <code>y</code> is a space-separated list of integers. The i-th integer is the H-index score after Jorge wrote his i-th paper.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Case #1: 1 1 2</span><br><span class="line">Case #2: 1 1 2 2 2 3</span><br></pre></td></tr></table></figure></blockquote><h6 id="Limit"><a href="#Limit" class="headerlink" title="Limit"></a>Limit</h6><p>Time limit: <code>50</code> seconds per test set.<br>Memory limit: <code>1GB</code>.</p><blockquote><p>$1 \leq T \leq 100$</p><p>$1 \leq A_i \leq 105$</p></blockquote><p><strong>Test set 1 (Visible)</strong></p><blockquote><p>$1 \leq N \leq 1000$</p></blockquote><p><strong>Test set 2 (Hidden)</strong></p><blockquote><p>$1 \leq N \leq 10^5$</p></blockquote><hr><p>首先，需要了解<code>H-Index</code>的概念：H-Index又称为H指数或H因子，是一种评价学术成就的新方法。H代表“高引用次数”（high citations），一名科研人员的h指数是指他至多有H篇论文分别被引用了至少H次。如Simple Test Case #1 所示，当科研人员发了第一篇论文，引用次数为5，那么其H因子为1，解释为其至多发表了1（paper #1）篇论文且至少被引用了1次；当发表了第二篇论文，引用次数为1，那么其H因子依旧为1，因为其至多发表了1篇论文（paper #1 or paper #2）且至少被引用了1次；当发表了第三篇论文，引用次数为2，那么其H因子为2，因为其至多发表了2篇论文（paper #1 and paper #2）且至少被引用了2次。</p><p>那么，从直觉上，我们可以借助暴力枚举的方式，当科研人员发表了第<code>k</code>篇论文，寻找：$h-index(k) = max_k min(f(k), k)$。如此，其时间复杂度为$O(n^2)$，当然，其对于简单测试集<code>Test set 1</code>是够用的，但对于复杂测试集<code>Test set 2</code>来说便会超时，因此必须换个思路。</p><p>回顾题意，对于第<code>k</code>篇文章，我们需要找到<code>m</code>篇文章，且其引用次数<code>&gt;=m</code>，同时，需要注意的是，<code>H-Index</code>总体上与发表文章数量呈正比，因此，我们可以设计一个小根堆来存储发表文章的引用次数，当堆顶元素小于当前<code>H-Index</code>时，移除该堆顶元素；当小根堆的容量依旧大于当前<code>H-Index</code>时，则当前<code>H-Index++</code>。由此，我们仅仅扫描一遍文章引用次数数组，其时间复杂度为$O(n)$。代码如下：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; compute(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;papers) &#123;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; indice(papers.size(), <span class="number">1</span>);</span><br><span class="line">    </span><br><span class="line">    priority_queue&lt;<span class="keyword">int</span>, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;, greater&lt;&gt;&gt; heap;</span><br><span class="line">    heap.push(papers[<span class="number">0</span>]);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; papers.size(); ++i) &#123;</span><br><span class="line">        heap.push(papers[i]);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">int</span> current = indice[i - <span class="number">1</span>];</span><br><span class="line">        <span class="keyword">while</span> (heap.top() &lt;= current &amp;&amp; !heap.empty()) &#123;</span><br><span class="line">            heap.pop();</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> (heap.size() &gt; current) &#123;</span><br><span class="line">            current = current + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line"></span><br><span class="line">        indice[i] = current;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> indice;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> T;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; T;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> t = <span class="number">0</span>; t &lt; T; ++t) &#123;</span><br><span class="line">        <span class="keyword">int</span> N;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; papers, h_indice;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; N;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> n = <span class="number">0</span>; n &lt; N; ++n) &#123;</span><br><span class="line">            <span class="keyword">int</span> c;</span><br><span class="line">            <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line"></span><br><span class="line">            papers.push_back(c);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        h_indice = compute(papers);</span><br><span class="line"></span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"Case #"</span> &lt;&lt; t + <span class="number">1</span> &lt;&lt; <span class="string">": "</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">auto</span> &amp;h_index : h_indice) &#123;</span><br><span class="line">            <span class="built_in">cout</span> &lt;&lt; h_index &lt;&lt; <span class="string">" "</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上！</p>]]></content>
+    <content type="html"><![CDATA[<p>对我来说，<a href="https://codingcompetitions.withgoogle.com/kickstart/" target="_blank" rel="noopener">Google Kick Start</a> 就是一条充满荆棘的山路，无处不在的<code>WA</code>和<code>TLE</code>整得人简直没脾气。接下来一段时间，我打算在这条路上好好走上一走，四处看看，与<code>TLE</code>斗争到底。一般来说，<code>TLE</code>发生的原因即在于时间复杂度过高，需要想办法优化代码，其中一个思路是借助堆的应用，之前的也有<a href="https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/#more">文章</a>提到，本文从一道更难的题目入手，一起来看看如何借助堆优化时间复杂度。</p><a id="more"></a><h4 id="H-index"><a href="#H-index" class="headerlink" title="H-index"></a><a href="https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd/00000000001a274e" target="_blank" rel="noopener">H-index</a></h4><blockquote><p>It is important for researchers to write many high quality academic papers. Jorge has recently discovered a way to measure how impactful a researcher’s papers are: the <a href="https://en.wikipedia.org/wiki/H-index" target="_blank" rel="noopener">H-index</a>.</p><p>The <em>H-index score</em> of a researcher is the largest integer h such that the researcher has h papers with at least h citations each.</p><p>Jorge has written <strong>N</strong> papers in his lifetime. The i-th paper has <strong>Ai</strong> citations. The number of citations that each paper has will never change after it is written. Please help Jorge determine his H-index score after each paper he wrote.</p></blockquote><h5 id="Simple-Test-Cases"><a href="#Simple-Test-Cases" class="headerlink" title="Simple Test Cases"></a>Simple Test Cases</h5><blockquote><p><strong>Input</strong></p><p>The first line of the input gives the number of test cases, <strong>T</strong>. <strong>T</strong> test cases follow. Each test case begins with a line containing <strong>N</strong>, the number of papers Jorge wrote.</p><p>The second line contains <strong>N</strong> integers. The i-th integer is <strong>Ai</strong>, the number of citations the i-th paper has.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">3</span><br><span class="line">5 1 2</span><br><span class="line">6</span><br><span class="line">1 3 3 2 2 15</span><br></pre></td></tr></table></figure><hr><p><strong>Output</strong></p><p>For each test case, output one line containing <code>Case #x: y</code>, where <code>x</code> is the test case number (starting from 1) and <code>y</code> is a space-separated list of integers. The i-th integer is the H-index score after Jorge wrote his i-th paper.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Case #1: 1 1 2</span><br><span class="line">Case #2: 1 1 2 2 2 3</span><br></pre></td></tr></table></figure></blockquote><h6 id="Limit"><a href="#Limit" class="headerlink" title="Limit"></a>Limit</h6><p>Time limit: <code>50</code> seconds per test set.<br>Memory limit: <code>1GB</code>.</p><blockquote><p>$1 \leq T \leq 100$</p><p>$1 \leq A_i \leq 105$</p></blockquote><p><strong>Test set 1 (Visible)</strong></p><blockquote><p>$1 \leq N \leq 1000$</p></blockquote><p><strong>Test set 2 (Hidden)</strong></p><blockquote><p>$1 \leq N \leq 10^5$</p></blockquote><hr><p>首先，需要了解<code>H-Index</code>的概念：H-Index又称为H指数或H因子，是一种评价学术成就的新方法。H代表“高引用次数”（high citations），一名科研人员的h指数是指他至多有H篇论文分别被引用了至少H次。如Simple Test Case #1 所示，当科研人员发了第一篇论文，引用次数为5，那么其H因子为1，解释为其至多发表了1（paper #1）篇论文且至少被引用了1次；当发表了第二篇论文，引用次数为1，那么其H因子依旧为1，因为其至多发表了1篇论文（paper #1 or paper #2）且至少被引用了1次；当发表了第三篇论文，引用次数为2，那么其H因子为2，因为其至多发表了2篇论文（paper #1 and paper #2）且至少被引用了2次。</p><p>那么，从直觉上，我们可以借助暴力枚举的方式，当科研人员发表了第<code>k</code>篇论文，寻找：$h-index(k) = max_k min(f(k), k)$。如此，其时间复杂度为$O(n^2)$，当然，其对于简单测试集<code>Test set 1</code>是够用的，但对于复杂测试集<code>Test set 2</code>来说便会超时，因此必须换个思路。</p><p>回顾题意，对于第<code>k</code>篇文章，我们需要找到<code>m</code>篇文章，且其引用次数<code>&gt;=m</code>，同时，需要注意的是，<code>H-Index</code>总体上与发表文章数量呈正比，因此，我们可以设计一个小根堆来存储发表文章的引用次数，当堆顶元素小于当前<code>H-Index</code>时，移除该堆顶元素；当小根堆的容量依旧大于当前<code>H-Index</code>时，则当前<code>H-Index++</code>。由此，我们仅仅扫描一遍文章引用次数数组，其时间复杂度为$O(n)$。代码如下：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; compute(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;papers) &#123;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; indice(papers.size(), <span class="number">1</span>);</span><br><span class="line">    </span><br><span class="line">    priority_queue&lt;<span class="keyword">int</span>, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;, greater&lt;&gt;&gt; heap;</span><br><span class="line">    heap.push(papers[<span class="number">0</span>]);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; papers.size(); ++i) &#123;</span><br><span class="line">        heap.push(papers[i]);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">int</span> current = indice[i - <span class="number">1</span>];</span><br><span class="line">        <span class="keyword">while</span> (heap.top() &lt;= current &amp;&amp; !heap.empty()) &#123;</span><br><span class="line">            heap.pop();</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> (heap.size() &gt; current) &#123;</span><br><span class="line">            current = current + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line"></span><br><span class="line">        indice[i] = current;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> indice;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> T;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; T;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> t = <span class="number">0</span>; t &lt; T; ++t) &#123;</span><br><span class="line">        <span class="keyword">int</span> N;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; papers, h_indice;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; N;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> n = <span class="number">0</span>; n &lt; N; ++n) &#123;</span><br><span class="line">            <span class="keyword">int</span> c;</span><br><span class="line">            <span class="built_in">cin</span> &gt;&gt; c;</span><br><span class="line"></span><br><span class="line">            papers.push_back(c);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        h_indice = compute(papers);</span><br><span class="line"></span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"Case #"</span> &lt;&lt; t + <span class="number">1</span> &lt;&lt; <span class="string">": "</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">auto</span> &amp;h_index : h_indice) &#123;</span><br><span class="line">            <span class="built_in">cout</span> &lt;&lt; h_index &lt;&lt; <span class="string">" "</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上！</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;对我来说，&lt;a href=&quot;https://codingcompetitions.withgoogle.com/kickstart/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Kick Start&lt;/a&gt; 就是一条充满荆棘的山路，无处不在的&lt;code&gt;WA&lt;/code&gt;和&lt;code&gt;TLE&lt;/code&gt;整得人简直没脾气。接下来一段时间，我打算在这条路上好好走上一走，四处看看，与&lt;code&gt;TLE&lt;/code&gt;斗争到底。一般来说，&lt;code&gt;TLE&lt;/code&gt;发生的原因即在于时间复杂度过高，需要想办法优化代码，其中一个思路是借助堆的应用，之前的也有&lt;a href=&quot;https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/#more&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;文章&lt;/a&gt;提到，本文从一道更难的题目入手，一起来看看如何借助堆优化时间复杂度。&lt;/p&gt;
+      &lt;p&gt;对我来说，&lt;a href=&quot;https://codingcompetitions.withgoogle.com/kickstart/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Kick Start&lt;/a&gt; 就是一条充满荆棘的山路，无处不在的&lt;code&gt;WA&lt;/code&gt;和&lt;code&gt;TLE&lt;/code&gt;整得人简直没脾气。接下来一段时间，我打算在这条路上好好走上一走，四处看看，与&lt;code&gt;TLE&lt;/code&gt;斗争到底。一般来说，&lt;code&gt;TLE&lt;/code&gt;发生的原因即在于时间复杂度过高，需要想办法优化代码，其中一个思路是借助堆的应用，之前的也有&lt;a href=&quot;https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/#more&quot;&gt;文章&lt;/a&gt;提到，本文从一道更难的题目入手，一起来看看如何借助堆优化时间复杂度。&lt;/p&gt;
     
     </summary>
     
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://hybin.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
-      <category term="Kick Start" scheme="http://yoursite.com/tags/Kick-Start/"/>
+      <category term="Kick Start" scheme="https://hybin.github.io/tags/Kick-Start/"/>
     
   </entry>
   
   <entry>
     <title>C++ With VSCode</title>
-    <link href="http://yoursite.com/2019/12/17/C-With-VSCode/"/>
-    <id>http://yoursite.com/2019/12/17/C-With-VSCode/</id>
+    <link href="https://hybin.github.io/2019/12/17/C-With-VSCode/"/>
+    <id>https://hybin.github.io/2019/12/17/C-With-VSCode/</id>
     <published>2019-12-17T13:04:28.000Z</published>
     <updated>2019-12-17T13:24:08.751Z</updated>
     
@@ -112,16 +112,16 @@
     
     
     
-      <category term="Development Tool" scheme="http://yoursite.com/tags/Development-Tool/"/>
+      <category term="Development Tool" scheme="https://hybin.github.io/tags/Development-Tool/"/>
     
-      <category term="Configuration" scheme="http://yoursite.com/tags/Configuration/"/>
+      <category term="Configuration" scheme="https://hybin.github.io/tags/Configuration/"/>
     
   </entry>
   
   <entry>
     <title>Heap and Sliding Window</title>
-    <link href="http://yoursite.com/2019/12/15/Heap-and-Sliding-Window/"/>
-    <id>http://yoursite.com/2019/12/15/Heap-and-Sliding-Window/</id>
+    <link href="https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/"/>
+    <id>https://hybin.github.io/2019/12/15/Heap-and-Sliding-Window/</id>
     <published>2019-12-15T12:26:13.000Z</published>
     <updated>2019-12-15T12:57:49.032Z</updated>
     
@@ -135,18 +135,18 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
-      <category term="Data Structure" scheme="http://yoursite.com/tags/Data-Structure/"/>
+      <category term="Data Structure" scheme="https://hybin.github.io/tags/Data-Structure/"/>
     
   </entry>
   
   <entry>
     <title>TypeScript with Laravel Mix</title>
-    <link href="http://yoursite.com/2019/11/29/TypeScript-with-Laravel-Mix/"/>
-    <id>http://yoursite.com/2019/11/29/TypeScript-with-Laravel-Mix/</id>
+    <link href="https://hybin.github.io/2019/11/29/TypeScript-with-Laravel-Mix/"/>
+    <id>https://hybin.github.io/2019/11/29/TypeScript-with-Laravel-Mix/</id>
     <published>2019-11-29T08:45:39.000Z</published>
     <updated>2019-11-29T09:18:54.237Z</updated>
     
@@ -159,21 +159,21 @@
     </summary>
     
     
-      <category term="Web Development" scheme="http://yoursite.com/categories/Web-Development/"/>
+      <category term="Web Development" scheme="https://hybin.github.io/categories/Web-Development/"/>
     
     
-      <category term="Web Development" scheme="http://yoursite.com/tags/Web-Development/"/>
+      <category term="Web Development" scheme="https://hybin.github.io/tags/Web-Development/"/>
     
-      <category term="Laravel" scheme="http://yoursite.com/tags/Laravel/"/>
+      <category term="Laravel" scheme="https://hybin.github.io/tags/Laravel/"/>
     
-      <category term="TypeScript" scheme="http://yoursite.com/tags/TypeScript/"/>
+      <category term="TypeScript" scheme="https://hybin.github.io/tags/TypeScript/"/>
     
   </entry>
   
   <entry>
     <title>Finite-State Machine</title>
-    <link href="http://yoursite.com/2019/11/26/Finite-Status-Machine/"/>
-    <id>http://yoursite.com/2019/11/26/Finite-Status-Machine/</id>
+    <link href="https://hybin.github.io/2019/11/26/Finite-Status-Machine/"/>
+    <id>https://hybin.github.io/2019/11/26/Finite-Status-Machine/</id>
     <published>2019-11-26T09:18:48.000Z</published>
     <updated>2019-11-26T11:29:45.160Z</updated>
     
@@ -187,16 +187,16 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>Greedy</title>
-    <link href="http://yoursite.com/2019/11/11/Greedy/"/>
-    <id>http://yoursite.com/2019/11/11/Greedy/</id>
+    <link href="https://hybin.github.io/2019/11/11/Greedy/"/>
+    <id>https://hybin.github.io/2019/11/11/Greedy/</id>
     <published>2019-11-11T03:00:30.000Z</published>
     <updated>2019-11-12T07:09:09.728Z</updated>
     
@@ -210,16 +210,16 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>如何整一个文化人的桌面？</title>
-    <link href="http://yoursite.com/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/"/>
-    <id>http://yoursite.com/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/</id>
+    <link href="https://hybin.github.io/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/"/>
+    <id>https://hybin.github.io/2019/10/22/%E5%A6%82%E4%BD%95%E6%95%B4%E4%B8%80%E4%B8%AA%E6%96%87%E5%8C%96%E4%BA%BA%E7%9A%84%E6%A1%8C%E9%9D%A2%EF%BC%9F/</id>
     <published>2019-10-22T11:22:23.000Z</published>
     <updated>2019-11-12T07:10:40.899Z</updated>
     
@@ -235,18 +235,18 @@
     
     
     
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+      <category term="Python" scheme="https://hybin.github.io/tags/Python/"/>
     
-      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://hybin.github.io/tags/%E7%88%AC%E8%99%AB/"/>
     
-      <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
+      <category term="macOS" scheme="https://hybin.github.io/tags/macOS/"/>
     
   </entry>
   
   <entry>
     <title>Sliding Window</title>
-    <link href="http://yoursite.com/2019/10/06/Sliding-Window/"/>
-    <id>http://yoursite.com/2019/10/06/Sliding-Window/</id>
+    <link href="https://hybin.github.io/2019/10/06/Sliding-Window/"/>
+    <id>https://hybin.github.io/2019/10/06/Sliding-Window/</id>
     <published>2019-10-06T02:44:00.000Z</published>
     <updated>2019-11-12T07:09:48.823Z</updated>
     
@@ -260,16 +260,16 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>Monostone Stack</title>
-    <link href="http://yoursite.com/2019/10/05/Monostone-Stack/"/>
-    <id>http://yoursite.com/2019/10/05/Monostone-Stack/</id>
+    <link href="https://hybin.github.io/2019/10/05/Monostone-Stack/"/>
+    <id>https://hybin.github.io/2019/10/05/Monostone-Stack/</id>
     <published>2019-10-05T01:41:32.000Z</published>
     <updated>2019-11-12T07:09:28.535Z</updated>
     
@@ -283,16 +283,16 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="Algorithm" scheme="http://yoursite.com/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://hybin.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>Factorial with big numbers</title>
-    <link href="http://yoursite.com/2019/07/20/Factorial-with-big-numbers/"/>
-    <id>http://yoursite.com/2019/07/20/Factorial-with-big-numbers/</id>
+    <link href="https://hybin.github.io/2019/07/20/Factorial-with-big-numbers/"/>
+    <id>https://hybin.github.io/2019/07/20/Factorial-with-big-numbers/</id>
     <published>2019-07-20T13:09:36.000Z</published>
     <updated>2019-11-12T07:08:55.268Z</updated>
     
@@ -306,14 +306,14 @@
     
     
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>Dynamic Programming</title>
-    <link href="http://yoursite.com/2019/07/12/Dynamic-Programming/"/>
-    <id>http://yoursite.com/2019/07/12/Dynamic-Programming/</id>
+    <link href="https://hybin.github.io/2019/07/12/Dynamic-Programming/"/>
+    <id>https://hybin.github.io/2019/07/12/Dynamic-Programming/</id>
     <published>2019-07-12T06:48:18.000Z</published>
     <updated>2019-11-12T07:08:32.096Z</updated>
     
@@ -329,16 +329,16 @@
     
     
     
-      <category term="动态规划" scheme="http://yoursite.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+      <category term="C++" scheme="https://hybin.github.io/tags/C/"/>
     
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+      <category term="动态规划" scheme="https://hybin.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>利用XGBoost进行NLP分类任务</title>
-    <link href="http://yoursite.com/2019/03/26/%E5%88%A9%E7%94%A8XGBoost%E8%BF%9B%E8%A1%8CNLP%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1/"/>
-    <id>http://yoursite.com/2019/03/26/%E5%88%A9%E7%94%A8XGBoost%E8%BF%9B%E8%A1%8CNLP%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1/</id>
+    <link href="https://hybin.github.io/2019/03/26/%E5%88%A9%E7%94%A8XGBoost%E8%BF%9B%E8%A1%8CNLP%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1/"/>
+    <id>https://hybin.github.io/2019/03/26/%E5%88%A9%E7%94%A8XGBoost%E8%BF%9B%E8%A1%8CNLP%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1/</id>
     <published>2019-03-26T08:04:22.000Z</published>
     <updated>2019-11-12T07:13:40.244Z</updated>
     
@@ -359,11 +359,11 @@
     
     
     
-      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="https://hybin.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="自然语言处理" scheme="http://yoursite.com/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/"/>
+      <category term="自然语言处理" scheme="https://hybin.github.io/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/"/>
     
-      <category term="XGBoost" scheme="http://yoursite.com/tags/XGBoost/"/>
+      <category term="XGBoost" scheme="https://hybin.github.io/tags/XGBoost/"/>
     
   </entry>
   
