@@ -197,7 +197,7 @@
 <p>STEP 3：客户端收到响应，开始下载HTML代码（开源服务器以8k / chunk的速率）</p>
 <ul>
 <li>解析HTML代码，生成DOM树</li>
-<li>遇到<style>或<script>标签，下载响应的CSS文件和JS文件，而后继续构建DOM树</li>
+<li>遇到\<style\>或\<script\>标签，下载响应的CSS文件和JS文件，而后继续构建DOM树</script\></style\></li>
 <li>解析CSS代码，生成CSS规则树，并与DOM树结合，构建渲染树</li>
 <li>解析JS代码，借助DOM API修改DOM树，借助CSSOM修改渲染树</li>
 <li>将渲染树节点由上至下、由左至右压入文档流，并对页面进行布局</li>
@@ -1256,7 +1256,7 @@
 <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><h2 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h2><h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><h3 id="性能优化-1"><a href="#性能优化-1" class="headerlink" title="性能优化"></a>性能优化</h3><h4 id="HTML优化"><a href="#HTML优化" class="headerlink" title="HTML优化"></a>HTML优化</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1、避免 HTML 中书写 CSS 代码，因为这样难以维护。</span><br><span class="line">2、使用 Viewport 加速页面的渲染。</span><br><span class="line">3、使用语义化标签，减少 CSS 代码，增加可读性和 SEO。</span><br><span class="line">4、减少标签的使用，DOM 解析是一个大量遍历的过程，减少不必要的标签，能降低遍历的次数。</span><br><span class="line">5、避免 src、href 等的值为空，因为即时它们为空，浏览器也会发起 HTTP 请求。</span><br><span class="line">6、减少 DNS 查询的次数</span><br></pre></td></tr></table></figure>
 <h4 id="CSS优化"><a href="#CSS优化" class="headerlink" title="CSS优化"></a>CSS优化</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1、优化选择器路径：使用 .c &#123;&#125; 而不是 .a .b .c &#123;&#125;。</span><br><span class="line">2、选择器合并：共同的属性内容提起出来，压缩空间和资源开销。</span><br><span class="line">3、精准样式：使用 padding-left: 10px 而不是 padding: 0 0 0 10px。</span><br><span class="line">4、雪碧图：将小的图标合并到一张图中，这样所有的图片只需要请求一次。</span><br><span class="line">5、避免通配符：.a .b * &#123;&#125; 这样的选择器，根据从右到左的解析顺序在解析过程中遇到通配符 * &#123;&#125; </span><br><span class="line">6、会遍历整个 DOM，性能大大损耗。</span><br><span class="line">7、少用 float：float 在渲染时计算量比较大，可以使用 flex 布局。</span><br><span class="line">8、为 0 值去单位：增加兼容性。</span><br><span class="line">9、压缩文件大小，减少资源下载负担。</span><br></pre></td></tr></table></figure>
 <h4 id="JavaScript优化"><a href="#JavaScript优化" class="headerlink" title="JavaScript优化"></a>JavaScript优化</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1、尽可能把 &lt;script&gt; 标签放在 body 之后，避免 JS 的执行卡住 DOM 的渲染，最大程度保证页面尽快地展示出来</span><br><span class="line">2、尽可能合并 JS 代码：提取公共方法，进行面向对象设计等……</span><br><span class="line">3、CSS 能做的事情，尽量不用 JS 来做，毕竟 JS 的解析执行比较粗暴，而 CSS 效率更高。</span><br><span class="line">4、尽可能逐条操作 DOM，并预定好 CSS 样式，从而减少 reflow 或者 repaint 的次数。</span><br><span class="line">5、尽可能少地创建 DOM，而是在 HTML 和 CSS 中使用 display: none 来隐藏，按需显示。</span><br><span class="line">6、压缩文件大小，减少资源下载负担。</span><br></pre></td></tr></table></figure>
-</style></li></ul>]]></content>
+]]></content>
       <categories>
         <category>前端</category>
       </categories>
