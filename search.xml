@@ -197,7 +197,7 @@
 <p>STEP 3：客户端收到响应，开始下载HTML代码（开源服务器以8k / chunk的速率）</p>
 <ul>
 <li>解析HTML代码，生成DOM树</li>
-<li>遇到\<style\>或\<script\>标签，下载响应的CSS文件和JS文件，而后继续构建DOM树</script\></style\></li>
+<li>遇到<code>&lt;style&gt;</code>或<code>&lt;script&gt;</code>标签，下载响应的CSS文件和JS文件，而后继续构建DOM树</li>
 <li>解析CSS代码，生成CSS规则树，并与DOM树结合，构建渲染树</li>
 <li>解析JS代码，借助DOM API修改DOM树，借助CSSOM修改渲染树</li>
 <li>将渲染树节点由上至下、由左至右压入文档流，并对页面进行布局</li>
