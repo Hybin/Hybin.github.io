@@ -64,8 +64,8 @@
 <meta property="article:published_time" content="2019-11-26T09:18:48.000Z">
 <meta property="article:modified_time" content="2019-11-26T11:29:45.160Z">
 <meta property="article:author" content="Hybin Hwang">
-<meta property="article:tag" content="Algorithm">
 <meta property="article:tag" content="C++">
+<meta property="article:tag" content="Algorithm">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://hybin.github.io/2019/11/26/Finite-Status-Machine/status.png">
 
@@ -296,7 +296,7 @@
 <li>‘P’ : Present，到场<br>如果记录不包含多于一个’A’（缺勤）或超过两个连续的’L’（迟到），则该记录被视为可奖励的。</li>
 </ol>
 </blockquote>
-<h5 id="Simple-test-cases"><a href="#Simple-test-cases" class="headerlink" title="Simple test cases"></a>Simple test cases</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入: n = 2</span><br><span class="line">输出: 8 </span><br><span class="line">解释：</span><br><span class="line">有8个长度为2的记录将被视为可奖励：</span><br><span class="line">&quot;PP&quot; , &quot;AP&quot;, &quot;PA&quot;, &quot;LP&quot;, &quot;PL&quot;, &quot;AL&quot;, &quot;LA&quot;, &quot;LL&quot;</span><br><span class="line">只有&quot;AA&quot;不会被视为可奖励，因为缺勤次数超过一次。</span><br></pre></td></tr></table></figure>
+<h5 id="Simple-test-cases"><a href="#Simple-test-cases" class="headerlink" title="Simple test cases"></a>Simple test cases</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入: n &#x3D; 2</span><br><span class="line">输出: 8 </span><br><span class="line">解释：</span><br><span class="line">有8个长度为2的记录将被视为可奖励：</span><br><span class="line">&quot;PP&quot; , &quot;AP&quot;, &quot;PA&quot;, &quot;LP&quot;, &quot;PL&quot;, &quot;AL&quot;, &quot;LA&quot;, &quot;LL&quot;</span><br><span class="line">只有&quot;AA&quot;不会被视为可奖励，因为缺勤次数超过一次。</span><br></pre></td></tr></table></figure>
 <p>对于这个问题，我们的直觉是通过构造全排列，并依照判断条件，对符合条件的记录进行计数。显然，依照直觉暴力求解，必然会遇到超时问题。更好的思路是基于动态规划的思想，构造状态转移方程。但就本题而言，借助有限状态机，会大大地简化问题。</p>
 <p>先来看题目，对于不可奖励的记录，其要么包含<code>2+</code>的<code>A</code>，或<code>3+</code>的连续的<code>L</code>，那么，仅仅需要考虑<code>A</code>和<code>L</code>的情况，我们将有限状态机画出来，得到：<br><img src="/2019/11/26/Finite-Status-Machine/status.png" alt="有限状态机"></p>
 <p>由上图可见，对于节点<code>A0L0</code>，其入度为3，而节点<code>A1L0</code>入度为6，那么代码可以表示为：</p>
@@ -311,8 +311,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Algorithm/" rel="tag"># Algorithm</a>
               <a href="/tags/C/" rel="tag"># C++</a>
+              <a href="/tags/Algorithm/" rel="tag"># Algorithm</a>
           </div>
 
         
